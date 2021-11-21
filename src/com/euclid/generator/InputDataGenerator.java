@@ -10,7 +10,7 @@ public class InputDataGenerator {
 
     private static final int MAX_RANGE = 10000;
 
-    private static final int COUNT_OF_NUMBERS = 500;
+    private static final int COUNT_OF_NUMBERS = 1000;
 
 
     public static void main(String[] args) throws IOException {
