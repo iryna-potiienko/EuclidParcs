@@ -8,9 +8,9 @@ public class InputDataGenerator {
 
     private static final int MIN_RANGE = 1;
 
-    private static final int MAX_RANGE = 1000;
+    private static final int MAX_RANGE = 10000;
 
-    private static final int COUNT_OF_NUMBERS = 1000;
+    private static final int COUNT_OF_NUMBERS = 500;
 
 
     public static void main(String[] args) throws IOException {
@@ -28,6 +28,7 @@ public class InputDataGenerator {
     }
 
     private static int getRandomNumber() {
-        return (int) ((Math.random() * (InputDataGenerator.MAX_RANGE - InputDataGenerator.MIN_RANGE)) + InputDataGenerator.MIN_RANGE);
+        return (int) ((Math.random() * (InputDataGenerator.MAX_RANGE - InputDataGenerator.MIN_RANGE))
+                + InputDataGenerator.MIN_RANGE);
     }
 }

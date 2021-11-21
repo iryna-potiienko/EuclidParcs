@@ -43,7 +43,8 @@ public class MainEuclidParcs {
 
             int greatestCommonDividend = c.readInt();
 
-            System.out.println("leftNumber: " + leftNumber + " rightNumber: " + rightNumber + " GCD: " + greatestCommonDividend + "\n");
+            System.out.println("leftNumber: " + leftNumber + " rightNumber: "
+                    + rightNumber + " GCD: " + greatestCommonDividend + "\n");
         }
 
         double totalTime = (double) (System.nanoTime() - startTime) / 1000000000;
