@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 public class MainEuclidParcs {
 
-    private static final int NUMBER_OF_TASKS = 5;
+    private static final int NUMBER_OF_TASKS = 3;
 
 
     public static void main(String[] args) throws Exception {
