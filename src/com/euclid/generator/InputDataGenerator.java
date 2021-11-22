@@ -14,7 +14,7 @@ public class InputDataGenerator {
 
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter writer = new BufferedWriter(new FileWriter("input", true));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("out/input", false));
 
         for (int i = 0; i < COUNT_OF_NUMBERS; i++) {
             int leftNumber = getRandomNumber();
